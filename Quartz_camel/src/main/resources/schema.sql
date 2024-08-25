@@ -1,0 +1,5 @@
+CREATE TABLE route_hashes (
+    route_id VARCHAR(50) NOT NULL,
+    hash VARCHAR(64) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
